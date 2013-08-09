@@ -1,0 +1,53 @@
+    body {
+     background-color: rgb(65, 65, 65); 
+    }
+    table {
+      color: #fff; 
+    }
+    table td {
+      padding: 10px;
+    }
+    h1 {
+     color: #fff; 
+    }
+    #container {
+      margin: 20px;
+    }
+    .wordbox {
+      float: left;
+      margin-right: 1em;
+      cursor: hand; 
+      cursor: pointer;
+    }
+    .word {
+      font-size: 40px;
+      line-height: 1.9em;
+      background-color: #ddd;
+      border-radius: 6px;
+      padding: 4px;
+      border: 1px solid rgb(182, 182, 182);
+    }
+    #editor {
+      margin-top: 4em;
+    }
+    .help {
+      color: #999;
+    }
+    
+    #password, .copy, .refreshAll {
+      font-size: 25px;
+      line-height: 40px;
+      height: 45px; 
+    }
+    .copy {
+      margin-top: 3em;
+    }
+    #password {
+      width: 80%;
+      min-width: 100px;
+      max-width: 600px;
+      margin-top: 3em;
+    }
+    footer {
+      margin-top: 4em;
+    }
