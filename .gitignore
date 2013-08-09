@@ -1,6 +1,5 @@
-INSTALL.txt
-LICENSE.txt
-README.txt
-demos/
-extras/documentation
-
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
