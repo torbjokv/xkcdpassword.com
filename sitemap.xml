@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://xkcdpassword.com/</loc>
+  <loc>https://xkcdpassword.com/</loc>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
