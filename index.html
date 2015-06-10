@@ -6,6 +6,7 @@
     <title>XKCD password</title>
     <meta name="description" content="A simple XKCD style password generator">
     <meta name="keywords" content="xkcd password,password,password generator,xkcd password generator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="/css/jquery.ambiance.css" rel="stylesheet">
 
@@ -21,14 +22,14 @@
   <div id="container">
   <h1>XKCD password generator</h1>
   <p class="help">Generate XKCD passwords that are easy to remember and hard to guess. <p>
-  <a href="https://github.com/torbjokv/xkcdpassword.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+  <a href="https://github.com/torbjokv/xkcdpassword.com" class="github"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
   <table>
     <tr>
-      <td>Separator</td>
+      <td class="lbl">Separator</td>
       <td><input type="textbox" name="seperator" id="seperator" value=" "/></td>
     </tr>
     <tr>
-      <td>Number of words</td>
+      <td class="lbl">Number of words</td>
       <td>
       <select name="number_of_words" id="number_of_words">
         <option value="2">2</option>
@@ -49,7 +50,7 @@
 
 
     <div id="finalword" class="input-append">
-        <input type="text" id="password" name="passwordResult" class="input-block-level" /><button data-clipboard-target="password" id="copybutton" class="btn copy" type="button" title="Copy the xkcd passord"><i class="icon">✂</i></button>
+        <input type="text" id="password" name="passwordResult" class="input-block-level" /><button data-clipboard-target="password" id="copybutton" class="btn copy" type="button" title="Copy the xkcd passord"><img src="img/copy.svg"/></button>
     </div>
   </div>
   <footer class="help">This is an unofficial webpage inspired by <a href="http://xkcd.com/936/">XKCD</a> </footer>
